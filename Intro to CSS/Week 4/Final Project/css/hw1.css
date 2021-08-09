@@ -1,0 +1,97 @@
+body {
+    padding: 20px;
+    margin: 2%;
+}
+
+header {
+    background: rgba(150, 0, 150, 0.5);
+    background-image: url('../images/Ultimate_Frisbee_Final_Project_Week_2.jpeg');
+    background-size: cover;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(0, 79, 79, 0.712);
+}
+nav a {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    width: 300px;
+    margin: 2%;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.active {
+    background-color: rgba(255, 255, 255);
+}
+
+
+.left img{
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 200px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+.left {
+    float: left;
+    background: rgba(74.9, 100, 0, 0.5);
+    width: 25%;
+    margin-right: 50px;
+}
+
+.right {
+    position: relative;
+    right: auto;
+}
+
+/* screen size is a macbook air */
+table {
+    font-family: cursive, Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 71%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(0, 0, 0);
+}
+
+tr th {
+    background-color: rgba(255, 165, 0);
+    background-image: linear-gradient(rgba(128, 128, 128), rgba(0, 255, 0));
+    border-color: #87CEEB;
+    border-style: solid;
+    border-width: 2px 2px 3px 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+table tr {
+    opacity: 0.8;
+    text-align: center;
+}
+tr td:first-child {
+    text-align: left;
+}
+
+tr:hover {
+    opacity: 1;
+    font-size: 25px;
+    background-color: rgba(255, 165, 0, 0.7);
+}
+
+table tr td {
+    padding: 5px;
+    color: rgba(0, 0, 255);
+    background-color: rgba(255, 165, 1);
+    border-radius: 2px;
+    text-shadow: 1px 1px rgba(255, 0, 0);
+}
